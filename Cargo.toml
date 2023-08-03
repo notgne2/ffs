@@ -1,0 +1,23 @@
+[package]
+name = "ffs"
+version = "0.1.0"
+authors = ["notgne2 <gen2@gen2.space>"]
+edition = "2018"
+
+[dependencies]
+log = "0.4"
+diesel = { version = "1.4", features = ["sqlite"] }
+fuser = "0.11"
+libc = "0.2"
+pretty_env_logger = "0.4"
+blake2 = "0.10"
+hex = "0.4"
+regex = "1.5"
+lazy_static = "1.4"
+id3 = "1.2"
+magic = "0.12"
+serde_derive = "1.0"
+serde = "1.0"
+config = "0.13"
+walkdir = "2.3"
+rand = "0.8"

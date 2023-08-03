@@ -1,0 +1,5 @@
+CREATE TABLE joins (
+  "id" INTEGER PRIMARY KEY NOT NULL,
+  "tag_id" INTEGER NOT NULL,
+  "point_id" INTEGER NOT NULL
+)
